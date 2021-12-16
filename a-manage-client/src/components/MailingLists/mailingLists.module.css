@@ -1,0 +1,34 @@
+.mailingList {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 800px;
+    background-color: cadetblue;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.from {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.from span:first-child {
+    font-size: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}

@@ -1,0 +1,33 @@
+.container {
+    padding: 48px 32px;
+    background-color: #1A1D26;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon span {
+    color: white;
+    font-size: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+    margin-bottom: 54px;
+}
+
+.menu {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 18px;
+}
+
+.logout span {
+    cursor: pointer;
+    color: white;
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f1829034-147d-4984-ab85-edd0bc43f4c5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/VerifyEmail.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/verifyEmail.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/api/api.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/MailingLists/MailingLists.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/MailingLists/MailingLists.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/NewMailing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/NewMailing.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/newMailing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/newMailing.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/PrivateRoutes/PrivateRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/PrivateRoutes/PrivateRoutes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/PublicRoutes/PublicRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/PublicRoutes/PublicRoutes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/sidebar.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/SingIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/SingIn.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/singIn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/singIn.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/SingUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/SingUp.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/singUp.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/singUp.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/context/context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-client/src/routes/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/routes/routes.jsx" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/a-manage-client" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="22Mcs2krstHu1uNsla2lOyj9lg1" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f1829034-147d-4984-ab85-edd0bc43f4c5" name="Changes" comment="" />
+      <created>1639651099860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639651099860</updated>
+      <workItem from="1639651100954" duration="108000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,1 @@
+export {NewMailing} from './NewMailing'

@@ -1,0 +1,24 @@
+.header {
+    align-items: center;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.loginPanel {
+    width: 120px;
+    justify-content: space-between;
+    display: flex;
+}
+.loginPanel a {
+    color:black;
+    text-decoration: none;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.icon span {
+    font-size: 20px;
+}

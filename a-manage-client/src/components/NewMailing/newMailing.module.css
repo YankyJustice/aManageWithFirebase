@@ -1,0 +1,95 @@
+.form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    margin-left: 40px;
+    margin-top: 150px;
+}
+
+.form textarea {
+    resize: none;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 90vh;
+}
+
+.form textarea {
+    height: 200px;
+    width: 700px;
+    padding: 15px;
+}
+
+.mailTo {
+    max-width: 700px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.mailTo span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.emails span {
+    cursor: pointer;
+    background-color: grey;
+    color: black;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.emails {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 10px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 730px;
+}
+
+.buttons button {
+    padding: 15px;
+    border-radius: 10px;
+    cursor: pointer;
+    background: black;
+    color: white;
+    border: none;
+    font-size: 18px;
+}
+
+.buttons .draft {
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.uploadCSV {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.mailFrom span:first-child {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.titleMessage {
+    width: 100%;
+}
+
+.titleMessage input {
+    width: 708px;
+    padding: 10px;
+    font-size: 18px;
+}
