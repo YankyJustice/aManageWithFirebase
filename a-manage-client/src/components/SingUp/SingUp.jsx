@@ -53,7 +53,7 @@ export const SingUp = () => {
 					type='password'
 					className={cn({[styles.error]: errors.repeatPassword})}
 					{...register('repeatPassword', {required: true, validate: repeatPasswordValidate})} />
-				<button type='submit'>Sing in</button>
+				<button type='submit'>Sign up</button>
 			</form>
 			<span className={styles.errorMessage}>{errorMessage}</span>
 			<span className={styles.successMessage}>{successMessage}</span>

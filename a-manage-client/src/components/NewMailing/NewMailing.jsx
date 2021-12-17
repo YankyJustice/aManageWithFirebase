@@ -1,10 +1,11 @@
-import {useContext, useState} from 'react';
+import {useContext, useRef, useState} from 'react';
 import CSVReader from 'react-csv-reader';
 
 import {messagesAPI} from '../../api/api';
 import {authContext, setHeaderContext} from '../../context/context';
 
 import styles from './newMailing.module.css'
+import {Preloader} from "../Preloader";
 
 export const NewMailing = () => {
 	const [mailTo, setMailTo] = useState([])
@@ -15,7 +16,9 @@ export const NewMailing = () => {
 	const [findMode, setFindMode] = useState(false)
 	const [indexTrigger, setIndexTrigger] = useState()
 	const [titleMessageValue, setTitleMessageValue] = useState()
+	const [isFetching, setIsFetching] = useState(false)
 
+	const inputCsv = useRef()
 	const setHeaderTitle = useContext(setHeaderContext)
 	setHeaderTitle('New mailing')
 
@@ -50,20 +53,24 @@ export const NewMailing = () => {
 	}
 
 	const saveDraft = (e) => {
+		setIsFetching(true)
 		e.preventDefault()
 		messagesAPI.saveDraft({mailTo, titleMessageValue, email: user.email, textareaValue})
+			.finally(()=>setIsFetching(false))
 	}
 
 	const uploadDraft = (e) => {
+		setIsFetching(true)
 		e.preventDefault()
 		messagesAPI.uploadDraft(user.email)
 			.then(data => {
-				console.log(data)
-				setTextareaValue(data.textareaValue)
-				setTitleMessageValue(data.titleMessageValue)
+				console.log(inputCsv)
+				data.textareaValue && setTextareaValue(data.textareaValue)
+				data.titleMessageValue && setTitleMessageValue(data.titleMessageValue)
 				setEmailsForTooltip([])
-				setMailTo(data.mailTo)
+				data.mailTo && setMailTo(data.mailTo)
 			})
+			.finally(()=>setIsFetching(false))
 
 	}
 
@@ -73,10 +80,18 @@ export const NewMailing = () => {
 		setFindWord('')
 		setFindMode(false)
 	}
-
+	console.log(isFetching)
 	const sendMessage = (e) => {
+		setIsFetching(true)
 		e.preventDefault()
-		messagesAPI.sendMessage({mailTo, textMessage: textareaValue, user, titleMessageValue})
+		messagesAPI.sendMessage({mailTo, textMessage: textareaValue, email:user.email, titleMessageValue})
+			.then(()=>{
+				setTextareaValue('')
+				setTitleMessageValue('')
+				setEmailsForTooltip([])
+				setMailTo([])
+			})
+			.finally(()=>setIsFetching(false))
 	}
 
 	const handleForce = (data) => setMailTo(data);
@@ -88,7 +103,6 @@ export const NewMailing = () => {
 		transformHeader: header => header.toLowerCase().replace(/\W/g, '_')
 	};
 
-	console.log(mailTo)
 
 	return (
 		<div className={styles.container}>
@@ -140,7 +154,9 @@ export const NewMailing = () => {
 						<button onClick={(e) => sendMessage(e)}>Send message</button>
 					</div>
 				</div>
+				{isFetching && <Preloader/>}
 			</form>
+
 		</div>
 	)
 }

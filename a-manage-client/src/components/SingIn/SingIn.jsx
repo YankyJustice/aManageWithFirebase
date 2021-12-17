@@ -36,7 +36,7 @@ export const SingIn = () => {
 					className={cn({[styles.error]: errors.password})}
 					placeholder='Password'
 					{...register('password', {required: true})} />
-				<button type='submit'>Sing in</button>
+				<button type='submit'>Sign in</button>
 			</form>
 			{errorMessage}
 		</div>

@@ -32,3 +32,14 @@
     font-weight: bold;
     margin-right: 10px;
 }
+
+.menu span {
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 200px;
+}

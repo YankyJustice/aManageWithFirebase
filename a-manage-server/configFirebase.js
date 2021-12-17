@@ -8,5 +8,6 @@ firebase.initializeApp({
 
 const db = firebase.firestore()
 const Users = db.collection('Users')
+const MailingLists = db.collection('MailingLists')
 
-module.exports = {Users, db}
+module.exports = {Users, MailingLists, db}

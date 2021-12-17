@@ -4,6 +4,7 @@
     row-gap: 10px;
     margin-left: 40px;
     margin-top: 150px;
+    height: fit-content;
 }
 
 .form textarea {

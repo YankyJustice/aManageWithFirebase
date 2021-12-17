@@ -2,29 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f1829034-147d-4984-ab85-edd0bc43f4c5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/VerifyEmail.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/a-manage-client/src/components/VerifyEmail/verifyEmail.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/api/api.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/api/api.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Header/Header.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/MailingLists/MailingLists.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/MailingLists/MailingLists.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/NewMailing.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/NewMailing.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/newMailing.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/NewMailing/newMailing.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/PrivateRoutes/PrivateRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/PrivateRoutes/PrivateRoutes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/PublicRoutes/PublicRoutes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/PublicRoutes/PublicRoutes.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/sidebar.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/Sidebar/sidebar.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/SingIn.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/SingIn.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/singIn.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingIn/singIn.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/SingUp.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/SingUp.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/singUp.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/components/SingUp/singUp.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/context/context.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a-manage-client/src/routes/routes.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-client/src/routes/routes.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-server/configFirebase.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-server/configFirebase.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-server/controllers/messagesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-server/controllers/messagesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a-manage-server/routes/messagesRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/a-manage-server/routes/messagesRouter.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,7 +15,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/a-manage-client" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,6 +32,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -60,6 +44,7 @@
       <option name="presentableId" value="Default" />
       <updated>1639651099860</updated>
       <workItem from="1639651100954" duration="108000" />
+      <workItem from="1639654773593" duration="14917000" />
     </task>
     <servers />
   </component>

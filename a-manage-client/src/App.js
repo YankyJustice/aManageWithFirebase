@@ -8,6 +8,7 @@ import {PublicRoutes} from './components/PublicRoutes';
 import {VerifyEmail} from './components/VerifyEmail';
 
 import styles from './App.module.css';
+import {Preloader} from "./components/Preloader";
 
 const firebaseConfig = {
 	apiKey: 'AIzaSyBKuPzYG_b70_8UQfcnH12h_c4HFHYre18',
@@ -28,7 +29,11 @@ function App() {
 	const [user, loading, error] = useAuthState(auth)
 
 	if (loading) {
-		return <div></div>
+		return (
+			<div className={styles.preloader}>
+				<Preloader/>
+			</div>
+		)
 	}
 
 	return (

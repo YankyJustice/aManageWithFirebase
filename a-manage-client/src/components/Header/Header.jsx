@@ -12,11 +12,11 @@ export const Header = () => {
 			</div>
 			<div className={styles.loginPanel}>
 				<NavLink to='/singIn'>
-					<span>Sing in</span>
+					<span>Sign in</span>
 				</NavLink>
 				<span>|</span>
 				<NavLink to='/singUp'>
-					<span>Sing up</span>
+					<span>Sign up</span>
 				</NavLink>
 			</div>
 		</header>
